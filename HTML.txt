@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="web2.css">
+    <title>Document</title>
+    <script src="e.js"> </script>
+    <link rel="stylesheet" href="web2.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="ecommerce.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><button>Register</button></li>
+            </ul>
+    </div>
+    </nav>
+    <div class="content">
+        <div class="text">
+            <h1>Worlds best market!</h1>
+            <p>Buy the most valuable products at lower price. Browse & Discover Thousands of products.<br>
+                Read Customer Reviews and Find Best Sellers. Low Prices. Best Deals. Top Brands.<br>
+                Huge Selection. Cost EMI Available. Great Offers.
+            </p>
+            <button>Explore products</button>
+        </div>
+        <img src="image1.jfif">
+    </div>
+    <form class="container1">
+        <img src="image2.png">
+        <div class="form">
+            <label>Email</label>
+            <br>
+            <input type="email" id="Email-id">
+            <br>
+            <br>
+            <label>password</label>
+            <br>
+            <input type="password" id="pass">
+            <br>
+            <br>
+            <button>Log in</button>
+            <br>
+            <h6>Forget password?</h6>
+        </div>
+    </form>
+    <hr>
+    <div class="elements">
+        <ul class="navbar3">
+            <li>All</li>
+            <li>Car</li>
+            <li>Motorcycles</li>
+            <li>Furniture</li>
+            <li>Mobile</li>
+            <li>Computers</li>
+            <li>Home Appliances</li>
+            <li>Kitchen appliances</li>
+            <li>Games & Entertinement</li>
+        </ul>
+    </div>
+    <h5>Popular items</h5>
+    <div class="container2">
+        <div class="car">
+            <img src="image3.jfif">
+            <i class="fa fa-heart"></i>
+            <p>Mahindra Scorpio-N<br>4X4 (2022 Model)</p>
+            <button>Buy the product</button>
+        </div>
+        <div class="bike">
+            <img src="image4.jfif">
+            <i class="fa fa-heart"></i>
+            <p>Honda shine BS-4</p>
+            <button>Buy the product</button>
+        </div>
+        <div class="cycle">
+            <img src="image5.jfif">
+            <i class="fa fa-heart"></i>
+            <p>urban Terrain Beast<br>UT5001FTS2</p>
+            <button>Buy the product</button>
+        </div>
+        <div class="swift">
+            <img src="image6.jfif">
+            <i class="fa fa-heart"></i>
+            <p>Maruthi Swift VXI<br>(2016) Model</p>
+            <button>Buy the product</button>
+        </div>
+    </div>
+    <h5>Mens Fashion</h5>
+    <div class="container3">
+        <div class="shirt">
+            <img src="image7.jfif">
+            <i class="fa fa-heart"></i>
+            <p>Mens wear shirt<br>(size-32)</p>
+            <button>Buy the product</button>
+        </div>
+        <div class="pant">
+            <img src="image8.jfif">
+            <i class="fa fa-heart"></i>
+            <p>cotton likera (multiple<br>colors) size-30</p>
+            <button>Buy the product</button>
+        </div>
+        <div class="slipper">
+            <img src="image9.jfif">
+            <i class="fa fa-heart"></i>
+            <p>casuals (Bata) size<br>(6,7,8,9,10)</p>
+            <button>Buy the product</button>
+        </div>
+        <div class="shoe">
+            <img src="image10.jfif">
+            <i class="fa fa-heart"></i>
+            <p>bata-sport xxx<br>(7,8,9,10,11)</p>
+            <button>Buy the product</button>
+        </div>
+    </div>
+    <div class="img-icon">
+        <img src="icon.jpg">
+    </div>
+    <hr>
+    <form class="form2">
+        <div class="col1">
+            <h2>User details</h2>
+            <br>
+            <label>First name</label>
+            <br>
+            <input type="text" id="fn" placeholder="first name">
+            <br>
+            <br>
+            <label>Last name</label>
+            <br>
+            <input type="text" id="ln" placeholder="last name">
+            <br>
+            <br>
+            <label>DOB</label>
+            <br>
+            <input type="text" placeholder="DD/MM/YYYY">
+            <br>
+            <br>
+            <label>Gender</label>
+            <br>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="male">
+            &nbsp;
+            <span id="male">Male</span>
+            &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" id="female">
+            &nbsp;
+            <span id="female">Female</span>
+            <br>
+            <br>
+            <label>Email</label>
+            <br>
+            <input type="email" id="mail" placeholder="Mail-Id">
+            <br>
+            <br>
+            <label>Phone</label>
+            <br>
+            <input type="text" placeholder="+91">
+            <br>
+        </div>
+        <div class="vl"></div>
+        <div class="col2">
+            <label>District</label>
+            <br>
+            <input type="text" id="district" placeholder="district">
+            <br>
+            <br>
+            <label>State</label>
+            <br>
+            <input type="text" id="State" placeholder="state">
+            <br>
+            <br>
+            <label>Country</label>
+            <br>
+            <input type="text" id="Country" placeholder="country">
+            <br>
+            <br>
+            <label>Address</label>
+            <br>
+            <textarea name="address" placeholder="Enter the address"></textarea>
+            <br>
+            <br>
+            <button>Sign in</button>
+            <br>
+        </div>
+    </form>
+    </div>
+</body>
+
+</html>
